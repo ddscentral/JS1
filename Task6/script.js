@@ -1,6 +1,6 @@
 function oncheck()
 {	
-	let year = document.getElementById('year').value;
+	let year = parseInt(document.getElementById('year').value);
 
 	let leap = (year % 4 == 0) ? ((year % 100 == 0) ? (year % 400 == 0) : true) : false; 
 	

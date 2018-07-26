@@ -6,7 +6,7 @@ var g_high_age_extra = 100;
 
 function oncheck()
 {	
-	let years = document.getElementById('years').value;
+	let years = parseInt(document.getElementById('years').value);
 	let result = g_standard_bonus;
 	
 	if (years >= g_high_age) {

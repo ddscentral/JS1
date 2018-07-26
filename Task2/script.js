@@ -4,7 +4,7 @@ var g_high_age = 30;
 function oncheck()
 {	
 	// get age
-	let age = document.getElementById('age').value;
+	let age = parseInt(document.getElementById('age').value);
 	
 	// get the form element
 	let form = document.getElementById('entry');

@@ -1,6 +1,6 @@
 function oncheck()
 {	
-	let guess = document.getElementById('guess').value;
+	let guess = parseInt(document.getElementById('guess').value);
 	
 	let old_num_elem = document.getElementById('number');
 	let result_elem  = document.getElementById('guessprompt');

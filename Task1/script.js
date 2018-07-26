@@ -6,7 +6,7 @@ var g_high_age_discount = 0.33;
 
 function oncheck()
 {	
-	let age = document.getElementById('age').value;
+	let age = parseInt(document.getElementById('age').value);
 	let result = g_def_price;
 	
 	if (age < g_low_age) {
